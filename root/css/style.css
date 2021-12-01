@@ -390,9 +390,17 @@ p{
 /* Ratings */
 /* Carousel */
 .testimonial {
+    margin-bottom: 0;
+
 }
 .testimonial .carousel {
-    width: 60%;
+    width: 100%;
+}
+
+.testimonial .carousel .slide {
+    width: 100%;
+    position: relative;
+    padding: 0 200px;
 }
 
 .testimonial .carousel p {
@@ -410,6 +418,21 @@ p{
 .ratings .checked {
     color: orange !important;
 }
+.review .slide .arrow {
+    font-size: 50px;
+    color: var(--txt);
+    position: absolute;
+    top: 50%;
+    cursor: pointer;
+}
+.review .slide .left{
+    left: 10px;
+}
+.review .slide .right{
+    right: 10px;
+}
+
+
 
 
 /* Recent */
